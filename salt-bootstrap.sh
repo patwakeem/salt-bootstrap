@@ -32,7 +32,7 @@ tcp_keepalive_idle: 180
 
 #uncomment for highstate calls every hour
 
-#echo '#/bin/bash
+#echo '#!/bin/bash
 #
 #salt-call state.highstate >/dev/null 2>/dev/null
 #' > /etc/cron.hourly/highstate.cron
